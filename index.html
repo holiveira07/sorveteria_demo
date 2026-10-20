@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Promoção da sorveteria</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>Promoção da sorveteria</h1>
+      <p>Ganhe 10% de desconto nos sorvetes. A entrega continua integral.</p>
+
+      <label for="valor">Valor dos sorvetes (R$)</label>
+      <input id="valor" type="number" min="0" step="0.01" value="20" />
+
+      <button id="calcular">Calcular pedido</button>
+
+      <p id="erro" role="alert"></p>
+      <ul id="resultado" aria-live="polite">
+        <li>Informe o valor e clique em “Calcular pedido”.</li>
+      </ul>
+    </main>
+  </body>
+</html>
